@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const jantar = Number(prompt('Digite o valor do jantar para calcular a taxa do garcom: ')) // le o valor de jantar
+        const taxa = Number(prompt('Qual o valor da taxa? ')) // le o valor da taxa do garcom
+        const calcTaxa = (taxa/100)*jantar // faz o calculo da porcentagem da taxa
+        const total = jantar+calcTaxa // valor total da taxa e jantar
+        alert(`O valor do jantar é de R$${jantar.toFixed(2)} mais a taxa do garcom ${taxa}% que ficou R$${calcTaxa.toFixed(2)} da um total de R$${total.toFixed(2)}`)//retorno de informacões
+    </script>
+</body>
+</html>

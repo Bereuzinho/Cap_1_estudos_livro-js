@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert('Vamos calcular o tempo de uma viagem em horas!!!') // introducao
+        const dias = Number(prompt('Digite a quantidade de dias: ')) //entrada de dados:  numero em dias de viagem
+        const hora = Number(prompt('Digite as horas que restaram: (caso não reste nenhuma hora colocar 0)')) // entrada de dados: horas restantes
+        const automovel = prompt('Digite o meio de transporte: ') // entrada de dados: Veículo utilizado
+        const calculo = dias*24 //calculo de horas
+        const calculoTotal = calculo+hora // horas totais da viagem
+        alert(`Seria necessário ${calculoTotal} horas para viajar de ${automovel}`) // retorno da informacao
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const valor = Number(prompt('Digite o valor do produto: ')) // recebe o valor do produto
+        const desconto10 = Number(valor*0.10) // calcula o desconto
+        const descontado = valor-desconto10 // Aplica o desconto
+        const parcela =  Number(prompt('Digite o numero de parcelas: ')) // recebe em quantas parcelas
+        const parcelado = valor/parcela //divide o valor total do produto sem desconto para aplicar as parcelas
+
+        alert(`O produto está com o preco total de R$${valor.toFixed(2)}, em pagamentos a vista se recebe um desconto de 10% totalizando R${descontado.toFixed(2)}, ou ${parcela}x de R$${parcelado}`)   // retorna as inmformmacões     
+    </script>
+</body>
+</html>
